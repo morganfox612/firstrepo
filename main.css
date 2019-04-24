@@ -122,6 +122,12 @@ h1, h2 {
   background: pink;
 }
 
+.contact-form textarea {
+  border-radius: 5px;
+  margin-top: 15px;
+  font-family: sans-serif;
+}
+
 .contact-form input[type="text"] {
   /*top, right, bottom, left */
   padding: 5px 10px 5px 2px;
