@@ -1,0 +1,102 @@
+body {
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.main-header {
+  background-image: url("https://cdn.vehiclemall.com/medialibrary/dealergroup/845/slideshow/619/36ddf56c-ddbe-3ece-eb7812ccd9ae74a3.jpg");
+  height: 500px;
+  background-size: cover;
+  text-align: center;
+}
+
+h2 {
+  padding: 40px 0;
+  font-size: 41px;
+}
+
+.bio-header {
+  font-size: 31px;
+  color: darkred;
+  letter-spacing: 1.1px;
+}
+
+.about-bill {
+    font-size: 23px;
+    letter-spacing: 1.2px;
+    line-height: 1.31;
+}
+
+.main-header h1 {
+  font-size: 72px;
+  margin-top: 0;
+  padding-top: 8%;
+}
+
+h1, h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.car-grid {
+  display: inline-grid;
+  grid-template: 200px / 400px 400px 400px;
+  grid-gap: 10px;
+}
+
+.car-grid div {
+  background-image: url("https://electrek.co/wp-content/uploads/sites/3/2016/10/2017-toyota-prius-prime-premium-front-three-quarter-05-e1475540529593.jpg?quality=82&strip=all&w=1600");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.grid-container {
+  text-align: center;
+}
+
+.main-button {
+  background: red;
+  padding: 1% 1.8%;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.main-button:hover {
+  background: pink;
+}
+
+.info-grid {
+  padding-top: 30px;
+  display: inline-grid;
+  grid-template: 650px / 500px 500px;
+  grid-gap: 15px;
+}
+
+.info-grid div:nth-child(2) {
+  background-image: url("https://www.freeiconspng.com/uploads/men-suit-png-21.png");
+  background-position: 50% 40%;
+  background-size: cover;
+}
+
+#navbar {
+  padding-left: 5%;
+  padding: 0.6%;
+  position: fixed;
+  background: white;
+  width: 100%;
+  border-bottom: 1px solid #858585;
+
+}
+
+#navbar ul li {
+  display: inline;
+  padding: 0 30px;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: #333;
+}
