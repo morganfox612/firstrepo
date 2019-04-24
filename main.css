@@ -100,3 +100,30 @@ h1, h2 {
   text-decoration: none;
   color: #333;
 }
+
+.contact-section {
+  padding-top: 75px;
+}
+
+.contact-form {
+  padding-left: 100px;
+}
+
+.contact-form input[type="submit"] {
+  background: red;
+  border: 1px solid darkred;
+  color: white;
+  padding: 1% 1.5%;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.contact-form input[type="submit"]:hover {
+  background: pink;
+}
+
+.contact-form input[type="text"] {
+  /*top, right, bottom, left */
+  padding: 5px 10px 5px 2px;
+  border-radius: 3px;
+}
